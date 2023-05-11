@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lista de Juegos - CENLAM.COMP</title>
+	<style>
+		body {
+			background-image: url('fondo.jpg');
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			color: #fff;
+			font-family: Arial, sans-serif;
+			margin: 0;
+		}
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+			margin-bottom: 0;
+			font-size: 40px;
+			text-shadow: 0 0 10px silver;
+			z-index: 1;
+		}
+		h2 {
+			text-align: center;
+			margin-top: 0;
+			font-size: 20px;
+			text-shadow: 0 0 10px silver;
+			z-index: 1;
+		}
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin-top: 50px;
+		}
+		.container img {
+			max-width: 250px;
+			margin: 10px;
+			box-shadow: 0 0 10px #000;
+			border-radius: 10px;
+			cursor: pointer;
+			animation: zoom 0.3s ease-in-out;
+			transition: all 0.3s ease;
+		}
+		.container img:hover {
+			transform: scale(1.1);
+			box-shadow: 0 0 15px #000;
+		}
+		@keyframes zoom {
+			from {
+				transform: scale(1);
+			}
+			to {
+				transform: scale(1.1);
+			}
+		}
+		.footer {
+			background-color: #000;
+			padding: 10px 0;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			display: flex;
+			justify-content: space-evenly;
+			align-items: center;
+			z-index: 1;
+		}
+		.footer button {
+			background-color: #fff;
+			color: #000;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 10px;
+			font-size: 16px;
+			cursor: pointer;
+			box-shadow: 0 0 10px #000;
+			transition: all 0.3s ease;
+		}
+		.footer button:hover {
+			transform: scale(1.05);
+			box-shadow: 0 0 15px #000;
+		}
+	</style>
+</head>
+<body>
+	<h1>Lista de Juegos Competitivos</h1>
+	<h2>"Compitiendo como los grandes"</h2>
+	<div class="container">
+		<a href="cod.html">
+			<figure>
+				<img src="cod.jpg" alt="juego1">
+				<figcaption>Call of Duty Modern Warare 2</figcaption>
+			</figure>
+		</a>
+		<a href="wz.html">
+			<figure>
+				<img src="wz.jpg" alt="juego4">
+				<figcaption>Call of Duty Warzone</figcaption>
+			</figure>
+		</a>
+		<a href="fifa.html">
+			<figure>
+				<img src="descarga.jpg" alt="juego5">
+				<figcaption>FIFA</figcaption>
+			</figure>
+		</a>
+
+		<a href="halo.html">
+			<figure>
+				<img src="halo.jpg" alt="juego6">
+				<figcaption>HALO INFINITE</figcaption>
+			</figure>
+		</a>
+	</div>
+
+
+	
+
+		
+

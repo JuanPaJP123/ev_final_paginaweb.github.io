@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Página de Videojuegos</title>
+	<style>
+		body {
+			background-image: url('esports.jpg');
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			color: #fff;
+			font-family: Arial, sans-serif;
+		}
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+			margin-bottom: 30px;
+		}
+		form {
+			text-align: center;
+			margin-top: 50px;
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		input[type="text"], input[type="email"], input[type="tel"], select, input[type="password"] {
+			padding: 5px;
+			border: none;
+			border-radius: 3px;
+			margin-bottom: 20px;
+			width: 100%;
+			max-width: 300px;
+			font-size: 16px;
+		}
+		input[type="button"] {
+			display: block;
+			margin: 20px auto 0;
+			padding: 10px 20px;
+			background-color: #ffcc00;
+			color: #000;
+			border: none;
+			border-radius: 3px;
+			font-size: 16px;
+			cursor: pointer;
+			text-decoration: none;
+		}
+		input[type="button"]:hover {
+			background-color: #e6b800;
+		}
+		a {
+			color: #ffcc00;
+			text-decoration: none;
+		}
+		#title {
+			text-align: center;
+			color: #000000;
+			font-size: 50px;
+			margin-top: 50px;
+			margin-bottom: 30px;
+			text-shadow: 0 0 10px #ffffff;
+			z-index: 1;
+		}
+	</style>
+</head>
+<body>
+	<div id="title">CENLAM.COMP</div>
+	<h1>Iniciar sesión</h1>
+	<form>
+		<label for="email">Correo electrónico:</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="password">Contraseña:</label>
+		<input type="password" id="password" name="password" required>
+
+		<input type="button" value="Iniciar sesión" onclick="window.location.href='interfaz.html'">
+
+	</form>
+	<p>¿No tienes una cuenta? <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-1258052753%3A1679962083509619&authuser=0&continue=https%3A%2F%2Fwww.google.com.mx%2Fsearch%3Fq%3Dcrear%2Bcuenta%2Bgoogle%26sxsrf%3DAPwXEdfbI5y41t3_ONWZ-I69ExpSx9ImpA%253A1679962051194%26source%3Dhp%26ei%3Dwy8iZJWZCLqlkPIP6KuxuA4%26iflsig%3DAOEireoAAAAAZCI90zrrPOMA0w7cqvQZ74LaMMghmwQa%26oq%3Dcrear%2B%26gs_lcp%3DCgdnd3Mtd2l6EAMYAzIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzIICAAQgAQQsQMyCAgAEIAEELEDMgUIABCABDIICAAQgAQQsQMyBQgAEIAEMgsIABCABBCxAxCDATIFCAAQgAQ6BAgjECc6FAguEIAEELEDEIMBEMcBENEDENQCOgsIABCKBRCxAxCDAToOCAAQgAQQsQMQgwEQyQM6CAgAEIoFEJIDOgQIABADOgsILhCABBCxAxCDAToRCC4QgAQQsQMQxwEQrwEQ1AI6DQgAEIAEELEDEIMBEAo6CAguEIAEENQCOgoIABCABBCxAxAKOgcIABCABBAKOgcIIxDqAhAnOhEILhCABBCxAxCDARDHARDRAzoOCC4QgAQQsQMQxwEQ0QM6CwguEIoFELEDEIMBOg4ILhCDARDUAhCxAxCABDoLCC4QgAQQsQMQ1AI6BQguEIAEOg4ILhCABBCxAxCDARDUAjoLCC4QgwEQsQMQgAQ6CAguEIAEELEDOhEILhCABBCxAxCDARDHARCvAVAAWLVBYOBhaApwAHgAgAHZAogBhxSSAQgxLjEyLjIuMZgBAKABAbABCg%26sclient%3Dgws-wiz&ec=GAlAAQ&hl=es-419&flowName=GlifWebSignIn&flowEntry=AddSession">Regístrate aquí</a></p>
+</body>
+</html>
+
